@@ -1,0 +1,136 @@
+* {
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+}
+
+body {
+    /* background-color: rgb(173, 172, 170); */
+    background-image: url(images/wp6782679.webp);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.cart {
+    width: 400px;
+    height: 600px;
+    background: linear-gradient(135deg, blue, green);
+    border-radius: 10px;
+    /* align-items: center; */
+    /* text-align: center; */
+    /* justify-content: center; */
+    /* margin: 100px auto 0; */
+    /* padding: 20px; */
+    /* margin-left:450px ; */
+    position: relative;
+    top: 100px;
+    left: 500px;
+    border-radius: 30px;
+    text-align: center;
+    box-shadow: 10px 0px 15px 0px black;
+
+}
+
+.search {
+    width: 100px;
+    /* align-items: center; */
+    /* justify-content: center; */
+    display: flex;
+    position: absolute;
+    left: 60px;
+    top: 60px;
+    /* margin-top: 200px; */
+    /* justify-content: space-between; */
+    cursor: pointer;
+    gap: 10px;
+}
+
+.search input {
+    width: 300px;
+    height: 40px;
+    border-radius: 30px;
+    flex: 1;
+    font-size: 20px;
+    /* overflow: visible; */
+}
+
+.search button {
+    border-radius: 70px;
+    width: 30px;
+    height: 50px;
+    background: none;
+    border: none;
+    position: relative;
+    bottom: 5px;
+    color: white;
+
+}
+
+.search button img {
+    border-radius: 30opx;
+    cursor: pointer;
+    width: 40px;
+    /* width: 40px; */
+    /* height: 10px; */
+}
+
+.weather img {
+    width: 150px;
+    height: 150px;
+    margin-top: 100px;
+
+    /* margin-left: 150px; */
+}
+
+.temp {
+    color: white;
+    margin-top: 10px;
+}
+
+.city {
+    color: white;
+    margin-top: 10px;
+
+}
+
+.weather h1 {
+    font-size: 60px;
+    font-weight: 400;
+}
+
+.weather h2 {
+    font-size: 40px;
+    font-weight: 400;
+}
+
+.detail {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0 20px;
+}
+
+.col {
+    display: flex;
+    align-items: center;
+    text-align: left;
+
+}
+
+.col img {
+    width: 50px;
+    height: 40px;
+    margin-right: 10px;
+}
+
+.humidity,
+.wind {
+    font-size: 30px;
+    font-weight: 400;
+    margin-top: 90px;
+    color: white;
+}
+
+p {
+    color: white;
+}
